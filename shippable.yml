@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+jobs:
+  - name: tests_runner_runCI
+    type: runCI
+    steps:
+      - IN: tests
